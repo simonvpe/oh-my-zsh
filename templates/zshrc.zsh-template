@@ -28,7 +28,3 @@ plugins=(k tig gitfast colored-man colorize command-not-found cp dirhistory auto
 # /!\ zsh-syntax-highlighting and then zsh-autosuggestions must be at the end
 
 source $ZSH/oh-my-zsh.sh
-
-[ -f $HOME/.asdf/asdf.sh ] && . $HOME/.asdf/asdf.sh
-
-[ -f $HOME/.asdf/completions/asdf.bash ] && . $HOME/.asdf/completions/asdf.bash
