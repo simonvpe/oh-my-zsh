@@ -24,7 +24,11 @@ POWERLEVEL9K_DIR_SHOW_WRITABLE=true
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
 
-plugins=(k tig gitfast colored-man colorize command-not-found cp dirhistory autojump sudo zsh-syntax-highlighting)
+plugins=(k tig gitfast colored-man colorize command-not-found cp dirhistory autojump sudo zsh-syntax-highlighting asciidoctor)
 # /!\ zsh-syntax-highlighting and then zsh-autosuggestions must be at the end
 
 source $ZSH/oh-my-zsh.sh
+
+[ -f $HOME/.asdf/asdf.sh ] && . $HOME/.asdf/asdf.sh
+
+[ -f $HOME/.asdf/completions/asdf.bash ] && . $HOME/.asdf/completions/asdf.bash

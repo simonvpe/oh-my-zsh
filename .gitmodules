@@ -4,3 +4,6 @@
 [submodule "themes/powerlevel9k"]
 	path = themes/powerlevel9k
 	url = https://github.com/simonvpe/powerlevel9k
+[submodule "asciidoctor"]
+	path = asciidoctor
+	url = https://github.com/sparsick/asciidoctor-zsh
