@@ -3,4 +3,4 @@
 	url = https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme.git
 [submodule "themes/powerlevel9k"]
 	path = themes/powerlevel9k
-	url = https://github.com/bhilburn/powerlevel9k
+	url = https://github.com/simonvpe/powerlevel9k
